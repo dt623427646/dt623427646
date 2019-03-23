@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/singleton-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/factory-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype-pattern/pom.xml" />
       </list>
     </option>
   </component>
