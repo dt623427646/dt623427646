@@ -1,7 +1,8 @@
 package gupao.prototype;
 
+import gupao.prototype.Car;
+
 import java.io.*;
-import java.util.List;
 
 public class Person implements Cloneable,Serializable {
     private String name;

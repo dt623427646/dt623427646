@@ -1,4 +1,4 @@
-package singleton.register;
+package java.singleton.register;
 
 public enum EnumSingleton {
     INSTANCE;

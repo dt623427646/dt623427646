@@ -1,4 +1,4 @@
-package singleton.hungry;
+package java.singleton.hungry;
 
 public class HungrySingleton {
     private static final HungrySingleton singleton = new HungrySingleton();

@@ -1,4 +1,4 @@
-package singleton.register;
+package java.singleton.register;
 
 import java.util.concurrent.ConcurrentHashMap;
 

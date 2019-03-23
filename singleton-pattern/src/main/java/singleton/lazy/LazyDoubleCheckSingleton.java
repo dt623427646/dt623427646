@@ -1,4 +1,4 @@
-package singleton.lazy;
+package java.singleton.lazy;
 
 public class LazyDoubleCheckSingleton {
     // 保证对象可见性，防止该对象初始化后，后面的线程没有读取到最新的值

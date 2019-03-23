@@ -1,4 +1,4 @@
-package singleton.theadlocal;
+package java.singleton.theadlocal;
 
 public class ThreadLocalSingleton {
     private static final ThreadLocal<ThreadLocalSingleton> threadLocal = new ThreadLocal<ThreadLocalSingleton>() {

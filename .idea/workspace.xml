@@ -2,18 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f766dddf-8e37-4d26-9710-a32eb3eb8d30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prototype-pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype-pattern/src/test/main/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AbstarctDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AbstarctDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AudiBusCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AudiBusCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AudiCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AudiCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AudiSportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AudiSportCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BenzBusCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BenzBusCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BenzCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BenzCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BenzSportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BenzSportCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwBusCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwBusCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwSportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwSportCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/CarDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/CarDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/BenzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/BenzDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/BmwDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/BmwDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/Benz.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/Benz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/Bmw.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/Bmw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/SimpleCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/SimpleCarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/hungry/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungryStaticSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazyDoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazyInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazySimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazySimpleSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/register/ContainerSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/register/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/theadlocal/ThreadLocalSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/theadlocal/ThreadLocalSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/singleton-pattern/target/" />
     <ignored path="$PROJECT_DIR$/factory-pattern/target/" />
@@ -25,85 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#54151#0" expanded="true" />
-                <element signature="e#10907#10908#0" expanded="true" />
-                <element signature="e#10945#10946#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prototype-pattern/src/test/main/ClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="211" column="30" selection-start-line="211" selection-start-column="30" selection-end-line="211" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,6 +117,9 @@
         <option value="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Person.java" />
         <option value="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Client.java" />
         <option value="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Car.java" />
+        <option value="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Car.java" />
+        <option value="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Person.java" />
+        <option value="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Client.java" />
         <option value="$PROJECT_DIR$/prototype-pattern/src/test/main/ClientTest.java" />
       </list>
     </option>
@@ -214,42 +160,19 @@
             <path>
               <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -261,14 +184,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553319851615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553320740550" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/prototype-pattern/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="flex.compiler" />
@@ -381,7 +305,7 @@
       <updated>1553184856940</updated>
       <workItem from="1553184858333" duration="6680000" />
       <workItem from="1553304620706" duration="4706000" />
-      <workItem from="1553314057989" duration="4152000" />
+      <workItem from="1553314057989" duration="5022000" />
     </task>
     <task id="LOCAL-00001" summary="FactoryModule">
       <created>1553261062253</created>
@@ -397,11 +321,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553309602296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prototype-pattern">
+      <created>1553319875551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553319875551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="prototype-pattern">
+      <created>1553319888234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553319888234</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15538000" />
+    <option name="totallyTimeSpent" value="16408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,19 +352,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.3586498" visible="true" weight="0.22989276" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.3586498" visible="true" weight="0.22989276" />
       <window_info x="60" y="323" width="388" height="419" id="Structure" order="6" sideWeight="0.6413502" type="FLOATING" weight="0.22453083" />
       <window_info anchor="bottom" id="Thumbnails" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,7 +432,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FactoryModule" />
     <MESSAGE value="Singleton-Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton-Module" />
+    <MESSAGE value="prototype-pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype-pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/test.java" />
@@ -555,7 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwCar.java">
+    <entry file="file://$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -577,7 +515,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungryStaticSinkleton.java" />
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungryStaticSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/hungry/HungryStaticSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -599,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungrySingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/hungry/HungrySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="5" selection-end-line="12" />
@@ -613,14 +551,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazyDoubleCheckSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazyDoubleCheckSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazyInnerClassSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazyInnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
@@ -631,28 +569,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazySimpleSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazySimpleSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/EnumSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/register/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/ContainerSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/register/ContainerSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/singleton/theadlocal/ThreadLocalSingleton.java">
+    <entry file="file://$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/theadlocal/ThreadLocalSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
@@ -695,46 +633,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Client.java">
+    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Person.java">
+    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="53" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Car.java">
+    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype-pattern/src/test/main/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -793,7 +719,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>prototype-pattern</last-edited>
+          <last-edited>factory-pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
