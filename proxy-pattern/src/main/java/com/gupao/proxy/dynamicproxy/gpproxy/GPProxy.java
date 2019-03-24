@@ -29,6 +29,15 @@ public class GPProxy {
            fw.flush();
            fw.close();
 
+            //3、把生成的.java文件编译成.class文件,复制写一次
+//           JavaCompiler systemJavaCompiler = ToolProvider.getSystemJavaCompiler();
+//           StandardJavaFileManager standardFileManager = systemJavaCompiler.getStandardFileManager(null, null, null);
+//           JavaCompiler.CompilationTask task1 = systemJavaCompiler.getTask(null, null, null, null, null, standardFileManager.getJavaFileObjects(f));
+//           task1.call();
+//           standardFileManager.close();
+
+
+
            //3、把生成的.java文件编译成.class文件
            JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
            StandardJavaFileManager manage = compiler.getStandardFileManager(null,null,null);
