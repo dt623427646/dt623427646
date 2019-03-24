@@ -2,43 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f766dddf-8e37-4d26-9710-a32eb3eb8d30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy-pattern/src/test/java/com/gupao/proxy/staticproxy/StaticproxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AbstarctDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AbstarctDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AbstractFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AudiBusCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AudiBusCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AudiCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AudiCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/AudiSportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/AudiSportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BenzBusCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BenzBusCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BenzCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BenzCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BenzSportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BenzSportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwBusCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwBusCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/BmwSportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/BmwSportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/abstFactory/CarDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/abstFactory/CarDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/BenzDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/BenzDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/BmwDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/BmwDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/factoryMethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/factoryMethod/FactoryMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/Benz.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/Benz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/Bmw.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/Bmw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory-pattern/src/main/factory/simpleFactory/SimpleCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory-pattern/src/main/java/factory/simpleFactory/SimpleCarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype-pattern/src/main/gupao/prototype/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/hungry/HungryStaticSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazyDoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazyInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/lazy/LazySimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/register/ContainerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton-pattern/src/main/singleton/theadlocal/ThreadLocalSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/singleton-pattern/src/main/java/singleton/theadlocal/ThreadLocalSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/singleton-pattern/target/" />
     <ignored path="$PROJECT_DIR$/factory-pattern/target/" />
     <ignored path="$PROJECT_DIR$/prototype-pattern/target/" />
+    <ignored path="$PROJECT_DIR$/proxy-pattern/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +36,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="126" column="42" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPMeipo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +106,7 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Singleton" />
         <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -75,16 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/Benz.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/Bwm.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/SimpleCarFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/factoryMethod/Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/factoryMethod/BenzDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/factoryMethod/BmwDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/simpleFactory/factoryMethod/FactoryMethodTest.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/factoryMethod/FactoryMethodTest.java" />
-        <option value="$PROJECT_DIR$/src/main/factory/abstFactory/BenzCar.java" />
         <option value="$PROJECT_DIR$/src/main/factory/abstFactory/BmwCar.java" />
         <option value="$PROJECT_DIR$/src/main/factory/abstFactory/AudiCar.java" />
         <option value="$PROJECT_DIR$/src/main/factory/abstFactory/AudiBusCar.java" />
@@ -121,6 +163,21 @@
         <option value="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Person.java" />
         <option value="$PROJECT_DIR$/prototype-pattern/src/main/java/gupao/prototype/Client.java" />
         <option value="$PROJECT_DIR$/prototype-pattern/src/test/main/ClientTest.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/Person.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Son.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/test/java/com/gupao/proxy/staticproxy/StaticproxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Father.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKMeipo.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/Girl.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPClassLoader.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPMeipo.java" />
+        <option value="$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxy.java" />
       </list>
     </option>
   </component>
@@ -136,7 +193,7 @@
     <option name="x" value="115" />
     <option name="y" value="35" />
     <option name="width" value="1655" />
-    <option name="height" value="984" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -148,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,31 +216,96 @@
             <path>
               <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="cglibproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="jdkproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553320740550" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553403935602" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -201,20 +322,23 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="factory.simpleFactory" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="java" />
       <recent name="java.prototype" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gupao.proxy.dynamicproxy.cglibproxy" />
       <recent name="singleton.register" />
       <recent name="singleton.lazy" />
       <recent name="factory.abstFactory" />
       <recent name="factory.simpleFactory.factoryMethod" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\framework-design-pattern\proxy-pattern\src\main\java\com\gupao\proxy\dynamicproxy\gpproxy" />
+      <recent name="D:\code\framework-design-pattern\proxy-pattern\src\main\java\com\gupao\proxy\dynamicproxy" />
       <recent name="D:\code\gupao\factory-pattern" />
       <recent name="D:\code\gupao\singleton-pattern" />
     </key>
@@ -231,13 +355,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientTest (1)">
-    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.abstFactory.AbstractFactoryTest" />
-      <module name="framework-design-pattern" />
+  <component name="RunManager" selected="Application.GPProxyTest">
+    <configuration name="CglibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.proxy.dynamicproxy.cglibproxy.CglibProxyTest" />
+      <module name="proxy-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.abstFactory.*" />
+          <option name="PATTERN" value="com.gupao.proxy.dynamicproxy.cglibproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.ClientTest" />
-      <module name="prototype-pattern" />
+    <configuration name="GPProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.proxy.dynamicproxy.gpproxy.GPProxyTest" />
+      <module name="proxy-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value="com.gupao.proxy.dynamicproxy.gpproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +395,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.simpleFactory.factoryMethod.FactoryMethodTest" />
-      <module name="framework-design-pattern" />
+    <configuration name="JDKProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.proxy.dynamicproxy.jdkproxy.JDKProxyTest" />
+      <module name="proxy-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.simpleFactory.factoryMethod.*" />
+          <option name="PATTERN" value="com.gupao.proxy.dynamicproxy.jdkproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticproxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.proxy.staticproxy.StaticproxyTest" />
+      <module name="proxy-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupao.proxy.staticproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,10 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GPProxyTest" />
+        <item itemvalue="Application.CglibProxyTest" />
+        <item itemvalue="Application.JDKProxyTest" />
+        <item itemvalue="Application.StaticproxyTest" />
         <item itemvalue="Application.ClientTest (1)" />
-        <item itemvalue="Application.ClientTest" />
-        <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.FactoryMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +443,8 @@
       <updated>1553184856940</updated>
       <workItem from="1553184858333" duration="6680000" />
       <workItem from="1553304620706" duration="4706000" />
-      <workItem from="1553314057989" duration="5022000" />
+      <workItem from="1553314057989" duration="6460000" />
+      <workItem from="1553396017627" duration="4384000" />
     </task>
     <task id="LOCAL-00001" summary="FactoryModule">
       <created>1553261062253</created>
@@ -335,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553319888234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update project">
+      <created>1553320791307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553320791307</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16408000" />
+    <option name="totallyTimeSpent" value="22230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,29 +498,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.3586498" visible="true" weight="0.22989276" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.3586498" visible="true" weight="0.23324397" />
       <window_info x="60" y="323" width="388" height="419" id="Structure" order="6" sideWeight="0.6413502" type="FLOATING" weight="0.22453083" />
-      <window_info anchor="bottom" id="Thumbnails" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32673267" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection Results" order="13" show_stripe_button="false" weight="0.3286119" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" show_stripe_button="false" weight="0.3286119" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -433,29 +580,10 @@
     <MESSAGE value="FactoryModule" />
     <MESSAGE value="Singleton-Module" />
     <MESSAGE value="prototype-pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="prototype-pattern" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/simpleFactory/Car.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/simpleFactory/Benz.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/simpleFactory/Bmw.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/factoryMethod/Driver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/factoryMethod/BenzDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/factoryMethod/BmwDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/factoryMethod/FactoryMethodTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/BenzCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/BmwCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/AudiCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/AudiBusCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/AudiSportCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/BenzBusCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/BenzSportCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/BmwBusCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/BmwSportCar.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/AbstarctDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/CarDriverFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/factory/abstFactory/AbstractFactoryTest.java" />
     <entry file="uml://JAVA/factory.simpleFactory.SimpleCarFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -607,13 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/java/framework-design-pattern/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype-pattern/src/main/java/framework-design-pattern/App.java" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -664,6 +786,174 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/DataCheck.uml" />
+    <entry file="file://D:/design/gupaoedu-vip-pattern-proxy/src/main/java/com/gupaoedu/vip/pattern/proxy/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/test/java/com/gupao/proxy/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/test/java/com/gupao/proxy/staticproxy/StaticproxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/design/gupaoedu-vip-pattern-proxy/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/Customer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="704" column="59" selection-start-line="704" selection-start-column="42" selection-end-line="704" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="80" lean-forward="true" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/tools/JavaCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/tools/ToolProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/gpproxy/GPProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="126" column="42" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -719,11 +1009,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>factory-pattern</last-edited>
+          <last-edited>singleton-pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
