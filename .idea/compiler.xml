@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="delegate-pattren" />
         <module name="factory-pattern" />
         <module name="prototype-pattern" />
         <module name="proxy-pattern" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="delegate-pattren" target="1.7" />
       <module name="factory-pattern" target="1.7" />
       <module name="prototype-pattern" target="1.7" />
       <module name="proxy-pattern" target="1.7" />
