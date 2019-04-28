@@ -1,12 +1,76 @@
 
 1、跟踪update()流程，绘制每一步的时序图（4个）
+DefaultSqlSessionFactory
+    -> openSession
+        ->
+           Environment environment = this.configuration.getEnvironment();
+           TransactionFactory transactionFactory = this.getTransactionFactoryFromEnvironment(environment);
+           tx = transactionFactory.newTransaction(environment.getDataSource(), level, autoCommit);
+           Executor executor = this.configuration.newExecutor(tx, execType);
+                -> newExecutor
+                    根据类型选择对应执行器
+                    if (ExecutorType.BATCH == executorType) {
+                        executor = new BatchExecutor(this, transaction);
+                    } else if (ExecutorType.REUSE == executorType) {
+                        executor = new ReuseExecutor(this, transaction);
+                    } else {
+                        executor = new SimpleExecutor(this, transaction);
+                    }
+                    //二级缓存是否开启
+                    if (this.cacheEnabled) {
+                        executor = new CachingExecutor((Executor)executor);
+                    }
+                    Executor executor = (Executor)this.interceptorChain.pluginAll(executor);
+           DefaultSqlSession Session = new DefaultSqlSession(this.configuration, executor, autoCommit);
 
-    SimpleExecutor
+    DefaultSqlSession  <-
+     -> update(String statement, Object parameter)
+          ->
+            MappedStatement ms = this.configuration.getMappedStatement(statement);
+            int var4 = this.executor.update(ms, this.wrapCollection(parameter));
+
+
+    SimpleExecutor(默认执行器)
         doUpdate(MappedStatement ms, Object parameter)
             1、ms.getConfiguration() 获取配置
             2、configuration.newStatementHandler  生成处理器对象
+                ->  new RoutingStatementHandler
+                    -> public class RoutingStatementHandler implements StatementHandler {
+                            private final StatementHandler delegate;
+                            public RoutingStatementHandler(Executor executor, MappedStatement ms, Object parameter, RowBounds rowBounds, ResultHandler resultHandler, BoundSql boundSql) {
+                                switch(ms.getStatementType()) {
+                                case STATEMENT:
+                                    this.delegate = new SimpleStatementHandler(executor, ms, parameter, rowBounds, resultHandler, boundSql);
+                                    break;
+                                case PREPARED:
+                                    this.delegate = new PreparedStatementHandler(executor, ms, parameter, rowBounds, resultHandler, boundSql);
+                                    break;
+                                case CALLABLE:
+                                    this.delegate = new CallableStatementHandler(executor, ms, parameter, rowBounds, resultHandler, boundSql);
+                                    break;
+                                default:
+                                    throw new ExecutorException("Unknown statement type: " + ms.getStatementType());
+                                }
+                            }
             3、statement = prepareStatement(handler, ms.getStatementLog()) 预编译SQL
             4、SimpleStatementHandler -> update(Statement statement) 执行sql，返回影响行数
+
+                 ->  PreparedStatementHandler  update(Statement statement)
+
+                        public int update(Statement statement) throws SQLException {
+                            PreparedStatement ps = (PreparedStatement)statement;
+                            ps.execute();
+                            int rows = ps.getUpdateCount();
+                            Object parameterObject = this.boundSql.getParameterObject();
+                                //主键生成器，KeyGenerator分Jdbc3KeyGenerator和SelectKeyGenerator
+                                //SelectKeyGenerator表示在mapper里面配置的selectKey生成方式
+                                //Jdbc3KeyGenerator表示自增的，也就是数据库自增后如果需要知道值，就用这个，这个是将自增结果回填到对象中。
+                                // 默认是NoKeyGenerator
+                            KeyGenerator keyGenerator = this.mappedStatement.getKeyGenerator();
+                            keyGenerator.processAfter(this.executor, this.mappedStatement, ps, parameterObject);
+
+                            return rows;
+                        }
 
 
 2、总结：MyBatis里面用到了哪些设计模式？
