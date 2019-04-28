@@ -1,0 +1,15 @@
+1、resultType（属性）和resultMap（标签引用）的区别？
+resultType：自动配置，返回自定义的pojo，需要对象与数据库字段一一对应，否则不能映射
+resultMap：手动配置，需要提前自定义映射关系，可以实现将查询结果映射为复杂类型的pojo，在select标签中使用resultMap引用
+
+2、collection和association的区别？
+collection:解决一对多的对象关系映射
+association：解决一对一的对象关系映射
+
+3、Statement和PreparedStatement的区别？
+    PreparedStatement接口继承Statement
+
+    1、Statement不预编译sql，PreparedStatement会预编译sql,多次相同sql语句，只会编译一次，
+        预编译语句有可能被重复调用，只需传入参数即可，语句执行频繁时可尽最大可能提高性能.
+    2、Statement有sql注入风险，PreparedStatement使用预编译语句.传参不会和预编译语句发生任何匹配的关系
+    3、PreparedStatement来代替Statement会使代码多出几行,但这样的代码无论从可读性还是可维护性上来说.都比直接用Statement的代码高很多档次

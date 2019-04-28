@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="delegate-pattren" />
         <module name="factory-pattern" />
+        <module name="mybatisstudy" />
         <module name="prototype-pattern" />
         <module name="proxy-pattern" />
         <module name="singleton-pattern" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="delegate-pattren" target="1.7" />
       <module name="factory-pattern" target="1.7" />
+      <module name="mybatisstudy" target="1.5" />
       <module name="prototype-pattern" target="1.7" />
       <module name="proxy-pattern" target="1.7" />
       <module name="singleton-pattern" target="1.5" />

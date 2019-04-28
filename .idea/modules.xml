@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/delegate-pattren/delegate-pattren.iml" filepath="$PROJECT_DIR$/delegate-pattren/delegate-pattren.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory-pattern/factory-pattern.iml" filepath="$PROJECT_DIR$/factory-pattern/factory-pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/framework-design-pattern.iml" filepath="$PROJECT_DIR$/.idea/framework-design-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-vip.iml" filepath="$PROJECT_DIR$/.idea/java-vip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisstudy/mybatisstudy.iml" filepath="$PROJECT_DIR$/mybatisstudy/mybatisstudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" filepath="$PROJECT_DIR$/prototype-pattern/prototype-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" filepath="$PROJECT_DIR$/proxy-pattern/proxy-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" filepath="$PROJECT_DIR$/singleton-pattern/singleton-pattern.iml" />
