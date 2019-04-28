@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f766dddf-8e37-4d26-9710-a32eb3eb8d30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatisstudy/mybatisstudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisstudy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/framework-design-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-vip.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisstudy/mybatisstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisstudy/mybatisstudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisstudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatisstudy/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/singleton-pattern/target/" />
     <ignored path="$PROJECT_DIR$/factory-pattern/target/" />
@@ -40,16 +37,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisstudy/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_1.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="138">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/SimpleExecutor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/statement/StatementHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/statement/SimpleStatementHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -84,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/singleton-pattern/src/main/singleton/register/ContainerSingleton.java" />
         <option value="$PROJECT_DIR$/singleton-pattern/src/单例模式课后作业" />
         <option value="$PROJECT_DIR$/prototype-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/prototype-pattern/src/main/java/prototype/Client.java" />
@@ -133,8 +160,9 @@
         <option value="$PROJECT_DIR$/strategy-pattern/src/main/java/com/gupao/pattern/strategy/PayStrategyTest.java" />
         <option value="$PROJECT_DIR$/strategy-pattern/src/main/java/com/gupao/pattern/strategy/Order.java" />
         <option value="$PROJECT_DIR$/strategy-pattern/src/main/java/com/gupao/pattern/strategy/PayStrategy.java" />
-        <option value="$PROJECT_DIR$/mybatisstudy/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_1.txt" />
+        <option value="$PROJECT_DIR$/mybatisstudy/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_2.txt" />
       </list>
     </option>
   </component>
@@ -189,6 +217,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="framework-design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556456732079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556458260179" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -220,9 +256,6 @@
       <recent name="java" />
       <recent name="java.prototype" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gupao.delegate.mvc.controller" />
       <recent name="com.gupao.proxy.dynamicproxy.cglibproxy" />
@@ -230,12 +263,15 @@
       <recent name="singleton.lazy" />
       <recent name="factory.abstFactory" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\framework-design-pattern\mybatisstudy\src\main\resources" />
       <recent name="D:\code\framework-design-pattern\strategy-pattern\src\main\java\com\gupao\pattern\strategy" />
       <recent name="D:\code\framework-design-pattern\delegate-pattren\src\main\java\com\gupao\delegate\simple" />
       <recent name="D:\code\framework-design-pattern\proxy-pattern\src\main\java\com\gupao\proxy\dynamicproxy\gpproxy" />
       <recent name="D:\code\framework-design-pattern\proxy-pattern\src\main\java\com\gupao\proxy\dynamicproxy" />
-      <recent name="D:\code\gupao\factory-pattern" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,7 +434,7 @@
       <workItem from="1554913374481" duration="1239000" />
       <workItem from="1554914860006" duration="814000" />
       <workItem from="1555158459258" duration="14000" />
-      <workItem from="1556455879875" duration="851000" />
+      <workItem from="1556455879875" duration="2377000" />
     </task>
     <task id="LOCAL-00001" summary="FactoryModule">
       <created>1553261062253</created>
@@ -470,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554915580129</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mybatis-part1">
+      <created>1556456766041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556456766042</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30671000" />
+    <option name="totallyTimeSpent" value="32197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,14 +530,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.3569405" visible="true" weight="0.24664879" />
-      <window_info x="66" y="406" width="388" height="419" id="Structure" order="6" sideWeight="0.6430595" weight="0.24664879" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.3569405" weight="0.24664879" />
+      <window_info active="true" x="66" y="406" width="388" height="419" id="Structure" order="6" sideWeight="0.6430595" visible="true" weight="0.24664879" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3243626" />
@@ -503,7 +547,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.48300284" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.13314448" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
@@ -573,7 +617,8 @@
     <MESSAGE value="proxy-pattern-1" />
     <MESSAGE value="delegate-pattren" />
     <MESSAGE value="strategy-pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy-pattern" />
+    <MESSAGE value="mybatis-part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis-part1" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -585,67 +630,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/design/gupaoedu-vip-pattern-proxy/src/main/java/com/gupaoedu/vip/pattern/proxy/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/test/java/com/gupao/proxy/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/staticproxy/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/test/java/com/gupao/proxy/staticproxy/StaticproxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/Girl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/design/gupaoedu-vip-pattern-proxy/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/Customer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxy-pattern/src/main/java/com/gupao/proxy/dynamicproxy/cglibproxy/CglibProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -940,13 +924,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisstudy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="276">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisstudy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/Executor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/mapping/MappedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/statement/StatementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/SimpleExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="875" column="12" selection-start-line="875" selection-start-column="12" selection-end-line="875" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/executor/statement/SimpleStatementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisstudy/src/main/resources/mybatis_homework_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
