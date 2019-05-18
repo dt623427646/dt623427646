@@ -18,7 +18,7 @@
     <bytecodeTargetLevel>
       <module name="delegate-pattren" target="1.7" />
       <module name="factory-pattern" target="1.7" />
-      <module name="mybatisstudy" target="1.5" />
+      <module name="mybatisstudy" target="1.8" />
       <module name="prototype-pattern" target="1.7" />
       <module name="proxy-pattern" target="1.7" />
       <module name="singleton-pattern" target="1.5" />
