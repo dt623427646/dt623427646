@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/delegate-pattren/pom.xml" />
         <option value="$PROJECT_DIR$/strategy-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisstudy/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-jdbc-mybatis/pom.xml" />
       </list>
     </option>
   </component>
